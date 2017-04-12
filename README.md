@@ -7,7 +7,7 @@ The current library for the Markov chaining is compilation I created using appro
 
 There are some assorted functions the bot can perform through API's based on keywords from the user.
 
-# Software you need
+# Software You Need
 -pip
 -virtualenv
 -Slack Account
