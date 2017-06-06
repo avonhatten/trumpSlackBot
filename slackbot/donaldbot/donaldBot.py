@@ -86,15 +86,9 @@ class DonaldBot():
 						# found in the word duos
 						if len(seedword) > 0:
 							seedword.pop(0)
-					print "Blake"
 				# Empty list to contain the generated words
                                 words = []
 				
-				#if len(specialWord) == 1:
-				#	print "HERE"
-				#else:
-				#	pass
-	
 				# Loop to get as many words as requested
 				for i in xrange(maxlength):
 					# Add the current first word
