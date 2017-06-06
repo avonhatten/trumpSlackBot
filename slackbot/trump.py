@@ -9,14 +9,13 @@ theDonald = DonaldBot()
 dirname = os.path.dirname(os.path.abspath(__file__))
 # Construct the path to the book
 book = os.path.join(dirname, 'trumpData.txt')
-# Make your bot read the book!
+# Have the bot read the book
 theDonald.read(book)
 
 response = raw_input("Ask Trump: ")
 
 if "you" in response:
 	response == "I"
-	print "HERE!"
 
 response = theDonald.generate_text(16, response)
 print(" ")
